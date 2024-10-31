@@ -1,56 +1,43 @@
-# Amazon Product Review Analysis and Feature Recommendation System for Startups 
+# Amazon Review Scraper
 
-## Overview
+Amazon Review Scraper is a Python-based tool that enables users to collect data about products, including descriptions, prices, ratings, and customer reviews, from Amazon. This tool is ideal for product-based startups that wish to analyze customer feedback for market insights.
 
-This project analyzes Amazon product reviews to extract valuable insights and generate recommendations for startups trying to launch similar products , so they can improve their products based on user feedback. The system performs sentiment analysis on product reviews, identifies common issues, and provides actionable recommendations to enhance product performance and user satisfaction.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Setup](#setup)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Requirements](#requirements)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
 
 ## Features
 
-- Scrapes Amazon product pages for details and reviews.
-- Analyzes reviews for positive and negative sentiments.
-- Identifies issues and positive features from reviews.
-- Generates recommendations based on identified issues and positive features. 
-- Saves the analysis results and recommendations to a CSV file.
+- **Automated Product Search**: Searches Amazon for a given product name.
+- **Data Extraction**: Collects information about:
+  - Product descriptions
+  - Prices
+  - Ratings
+  - Review counts
+  - Up to 5 unique customer reviews per product
+- **CSV Output**: Saves the extracted data to a CSV file named after the product.
 
-## Prerequisites
-
-- Python 3.x
-- ChromeDriver (compatible with your version of Google Chrome)
+---
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone this repository** to your local machine:
+   ```bash
+   git clone https://github.com/your-username/amazon-review-scraper.git
+   cd amazon-review-scraper
 
-    ```bash
-    git clone https://github.com/your-username/amazon-product-review-analysis.git
-    cd amazon-product-review-analysis
-    ```
+   Install required packages using pip:
+2. **Install required packages using pip:
 
-2. Install the required Python packages:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-3. Update the ChromeDriver path in `amazon_product_scraper.py`:
-
-    ```python
-    self.chrome_driver_path = '/path/to/chromedriver'  # Update with your ChromeDriver path
-    ```
-
-## Usage
-
-1. Run the script:
-
-    ```bash
-    python amazon_product_scraper.py
-    ```
-
-2. Enter the product name when prompted.
-
-3. The script will generate a CSV file with the analysis results and print the recommendations to the console.
-
-   
-## License
-
-This project is licensed under the MIT License. 
+pip install -r requirements.txt
