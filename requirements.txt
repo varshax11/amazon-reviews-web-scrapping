@@ -1,4 +1,14 @@
 selenium
 beautifulsoup4
-webdriver-manager
+webdriver-manager 
+
+
+
+
+
+
+
+
+
+
 
