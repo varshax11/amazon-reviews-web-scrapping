@@ -89,14 +89,17 @@ Enter the product name: wireless earbuds
 - **Saves the extracted data into a CSV file named <product_name>_reviews.csv in the project directory.**
 - **Output: The final data is stored in a CSV file with columns:**
 
+
+- description: Product description.
+- price: Price of the product.
+- review: Average rating.
+- review_count: Number of reviews.
+- review1 to review5: Individual reviews (up to 5).
+
+
 ---
 
 
-description: Product description.
-price: Price of the product.
-review: Average rating.
-review_count: Number of reviews.
-review1 to review5: Individual reviews (up to 5).
 
 
 ## File Structure
