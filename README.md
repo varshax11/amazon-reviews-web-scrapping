@@ -75,23 +75,29 @@ Enter the product name: wireless earbuds
 
 ```
 
+---
+
 ## Script Actions:
 
--Opens Amazon's website and searches for the specified product.
--Extracts up to 25 product listings with details such as:
-   Description
-   Price
-   Average rating
-   Number of reviews
-   Top 5 unique customer reviews for each product (if available).
--Saves the extracted data into a CSV file named <product_name>_reviews.csv in the project directory.
--Output: The final data is stored in a CSV file with columns:
+- **Opens Amazon's website and searches for the specified product.**
+- **Extracts up to 25 product listings with details such as:**
+   - Description
+   - Price
+   - Average rating
+   - Number of reviews
+   - Top 5 unique customer reviews for each product (if available).
+- **Saves the extracted data into a CSV file named <product_name>_reviews.csv in the project directory.**
+- **Output: The final data is stored in a CSV file with columns:**
+
+---
+
 
 description: Product description.
 price: Price of the product.
 review: Average rating.
 review_count: Number of reviews.
 review1 to review5: Individual reviews (up to 5).
+
 
 ## File Structure
 
@@ -106,13 +112,17 @@ The project directory contains the following files:
 
 ```
 
+---
+
 ## Requirements
 
 Below is the list of required Python packages:
 
-selenium==4.0.0
-beautifulsoup4==4.10.0
-webdriver-manager==3.5.0
+- selenium==4.0.0
+- beautifulsoup4==4.10.0
+- webdriver-manager==3.5.0
+
+---
 
 
 ## Troubleshooting
@@ -125,13 +135,21 @@ If the script fails to load product pages, verify your internet connection and c
 
 Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to create an issue or submit a pull request.
 
+---
+
 **Fork the repository**
 
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes.
+- Commit your changes (git commit -m 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Open a pull request.
+
+
+---
+
+
+
 
 ## License
 
